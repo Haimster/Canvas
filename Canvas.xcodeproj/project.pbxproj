@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BABF7245207853D000497D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF7244207853D000497D9B /* AppDelegate.swift */; };
-		BABF7247207853D000497D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF7246207853D000497D9B /* ViewController.swift */; };
 		BABF724A207853D000497D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABF7248207853D000497D9B /* Main.storyboard */; };
 		BABF724C207853D100497D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABF724B207853D100497D9B /* Assets.xcassets */; };
 		BABF724F207853D100497D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABF724D207853D100497D9B /* LaunchScreen.storyboard */; };
 		BABF725A207853D100497D9B /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF7259207853D100497D9B /* CanvasTests.swift */; };
 		BABF7265207853D100497D9B /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF7264207853D100497D9B /* CanvasUITests.swift */; };
+		BABF72732078545800497D9B /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABF72722078545800497D9B /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		BABF7241207853D000497D9B /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABF7244207853D000497D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BABF7246207853D000497D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BABF7249207853D000497D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BABF724B207853D100497D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BABF724E207853D100497D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		BABF7260207853D100497D9B /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABF7264207853D100497D9B /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		BABF7266207853D100497D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABF72722078545800497D9B /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				BABF7244207853D000497D9B /* AppDelegate.swift */,
-				BABF7246207853D000497D9B /* ViewController.swift */,
 				BABF7248207853D000497D9B /* Main.storyboard */,
 				BABF724B207853D100497D9B /* Assets.xcassets */,
 				BABF724D207853D100497D9B /* LaunchScreen.storyboard */,
 				BABF7250207853D100497D9B /* Info.plist */,
+				BABF72722078545800497D9B /* CanvasViewController.swift */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABF7247207853D000497D9B /* ViewController.swift in Sources */,
+				BABF72732078545800497D9B /* CanvasViewController.swift in Sources */,
 				BABF7245207853D000497D9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
